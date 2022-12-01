@@ -5,16 +5,26 @@ public class PrintArray
     public static void main(String[] args)
     {
         int[] arr = {2, 4, 6, 8, 10};
-        print(arr, 0);
+        printForword(arr, 0);
+        printReverse(arr,0);
     }
 
-    public static void print(int[] arr, int index) {
+    public static void printForword(int[] arr, int index) {
         if (index == arr.length)
         {
             return;
         }
         System.out.println(arr[index]);
-        print(arr, index + 1);
+        printForword(arr, index + 1);
+    }
+
+    public static void printReverse(int[] arr, int index) {
+        if (index == arr.length)
+        {
+            return;
+        }
+        printReverse(arr, index + 1);
+        System.out.println(arr[index]);
     }
 
 }
