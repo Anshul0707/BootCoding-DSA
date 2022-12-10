@@ -42,7 +42,6 @@ public class InsertElementInMiddle
             temp = temp.next;
             count++;
         }
-        // find the middle node
         int middlePosition = count/2;
         temp = head;
         for(int i=1; i<middlePosition; i++)
