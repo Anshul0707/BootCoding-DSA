@@ -8,7 +8,6 @@ public class CountOfNodes
         countOfNodes(head);
 
     }
-
     static class Node
     {
         int data;
