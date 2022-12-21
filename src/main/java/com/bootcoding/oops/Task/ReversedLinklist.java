@@ -5,10 +5,11 @@ public class ReversedLinklist
     public static void main(String[] args)
     {
         Node head = createLinkedList();
+        System.out.println("Given List");
         printLinkedList(head);
         Node reverse = reverse(head);
+        System.out.println("Reversed List");
         printLinkedList(reverse);
-//        System.out.println(""+printLinkedList(reverse));
     }
 
     public static class Node
