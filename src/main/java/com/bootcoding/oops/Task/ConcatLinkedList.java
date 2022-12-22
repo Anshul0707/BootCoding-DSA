@@ -8,7 +8,6 @@ public class ConcatLinkedList
         Node head2 = createLinkedListTwo();
         concat(head1,head2);
         printLinkedList(head1);
-//        printLinkedList(head2);
     }
 
     public static class Node
