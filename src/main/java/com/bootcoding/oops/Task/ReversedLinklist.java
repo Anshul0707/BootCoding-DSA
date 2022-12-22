@@ -9,6 +9,7 @@ public class ReversedLinklist
         printLinkedList(head);
         Node reverse = reverse(head);
         System.out.println("Reversed List");
+
         printLinkedList(reverse);
     }
 
