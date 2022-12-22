@@ -12,19 +12,6 @@ public class ReversedLinklist
         printLinkedList(reverse);
     }
 
-    public static class Node
-    {
-        int data;
-        Node next;
-
-        public Node(int data)
-        {
-            this.data = data;
-            this.next = null;
-        }
-    }
-
-
     private static Node createLinkedList()
     {
         Node firstNode = new Node(1);
