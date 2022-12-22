@@ -8,7 +8,7 @@ public class LinkList
         printLinkedList(head);
     }
 
-    static class Node
+    public static class Node
     {
         int data;
         Node next;
