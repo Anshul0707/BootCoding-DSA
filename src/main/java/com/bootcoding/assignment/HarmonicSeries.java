@@ -13,7 +13,6 @@ public class HarmonicSeries
         double add = 0.0;
         for (double i=1;i<=num;i++)
         {
-//            System.out.println();
            add=add+1/i;
         }
         System.out.println(add);

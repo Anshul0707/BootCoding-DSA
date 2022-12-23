@@ -6,7 +6,7 @@ public class SumOfTheSeries
     {
         int n=5;
         printTheSeries(n);
-        System.out.println(".");
+        System.out.println(" ");
         sumOfTheSeries(n);
     }
 
@@ -19,7 +19,6 @@ public class SumOfTheSeries
             sum=sum+num;
             num=(num*10)+1;
         }
-
         System.out.println(sum);
         return sum;
     }
@@ -29,7 +28,7 @@ public class SumOfTheSeries
         for (int i=0;i<n;i++)
         {
             sum=(sum*10)+1;
-            System.out.print(sum + " ");
+            System.out.print(sum + " + ");
         }
     }
 
