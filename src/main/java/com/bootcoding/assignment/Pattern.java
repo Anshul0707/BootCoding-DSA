@@ -6,11 +6,9 @@ public class Pattern
     {
         int num=5;
         paternOne(num);
+        paternTwo(num);
+        paternThree(num);
     }
-    //*
-    //**
-    //***
-    //****
     public static void paternOne(int num)
     {
        String s = "";
@@ -23,5 +21,32 @@ public class Pattern
             s =s+"\n";
         }
         System.out.println(s);
+    }
+
+    public static void paternTwo(int num)
+    {
+        String s = "";
+        for(int i=1;i<=num;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                s=s+j;
+            }
+            s =s+"\n";
+        }
+        System.out.println(s);
+    }
+
+    public static void paternThree(int num)
+    {
+        String s = "";
+        for(int i = 1; i <= num; i++)
+        {
+            for(int j = 1; j <= i; j++)
+            {
+                System.out.print(i+" ");
+            }
+            System.out.println();
+        }
     }
 }
