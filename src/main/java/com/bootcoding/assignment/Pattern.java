@@ -9,6 +9,7 @@ public class Pattern
         paternTwo(num);
         paternThree(num);
         paternFour(num);
+        paternFive(num);
     }
     public static void paternOne(int num)
     {
