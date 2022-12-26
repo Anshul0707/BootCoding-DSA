@@ -14,7 +14,8 @@ public class Detail
         this.amount = amount;
     }
 
-    public String getDescription() {
+    public String getDescription()
+    {
         return description;
     }
 

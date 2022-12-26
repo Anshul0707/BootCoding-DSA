@@ -1,7 +1,6 @@
 package com.bootcoding.collection2;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Application
 {
