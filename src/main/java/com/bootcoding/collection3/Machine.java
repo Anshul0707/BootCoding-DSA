@@ -1,4 +1,4 @@
-package collection3;
+package com.bootcoding.collection3;
 
 public class Machine
 {
