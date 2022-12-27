@@ -2,7 +2,8 @@ package com.bootcoding.Test;
 
 public class PositiveNumberInArray
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int [] arr={1,5,-3,2,11};
         int res = sumPositive(arr);
         System.out.println(res);
