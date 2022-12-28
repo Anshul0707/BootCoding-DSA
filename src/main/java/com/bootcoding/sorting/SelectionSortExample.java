@@ -5,7 +5,6 @@ public class SelectionSortExample
     public static void main(String[] args)
     {
         int [] arr={12, 11, 13, 5, 6};
-        System.out.println();
         selectionSort(arr);
         for(int i:arr)
         {
