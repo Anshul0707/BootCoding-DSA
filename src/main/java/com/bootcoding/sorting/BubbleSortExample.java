@@ -3,7 +3,7 @@ package com.bootcoding.sorting;
 public class BubbleSortExample {
     public static void main(String[] args)
     {
-        int[] arr = {8,7,5,0,2,3,6,4,1};
+        int[] arr = {12, 11, 13, 5, 6};
         System.out.println("Before Sorting..");
         for (int a : arr)
         {
