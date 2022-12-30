@@ -5,16 +5,16 @@ public class SelectionSortExample
     public static void main(String[] args)
     {
         int[] arr = {12, 11, 13, 5, 6};
-        System.out.println("Before Sorting..");
+        System.out.println("Before Sorting...");
         for (int a : arr)
         {
-            System.out.print(a + " ");
+            System.out.print(a + "  ");
         }
-        System.out.println("\nAfter Sorting..");
+        System.out.println("\nAfter Sorting...");
         selectionSort(arr);
         for (int i : arr)
         {
-            System.out.print(i + " ");
+            System.out.print(i + "  ");
         }
     }
 
