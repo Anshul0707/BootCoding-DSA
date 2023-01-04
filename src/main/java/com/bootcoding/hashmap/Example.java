@@ -16,7 +16,7 @@ public class Example
         System.out.println("Size of map: "+map.size());
         System.out.println(map);
 
-        if (map.containsKey("Suvi"))
+        if (map.containsKey("Min"))
         {
             Integer anshul = map.get("Anshul");
             System.out.println("value of anshul is "+anshul);
