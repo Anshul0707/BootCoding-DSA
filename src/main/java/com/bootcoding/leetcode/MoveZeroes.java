@@ -1,7 +1,15 @@
 package com.bootcoding.leetcode;
 
+import java.util.Arrays;
+
 public class MoveZeroes
 {
+    public static void main(String[] args)
+    {
+        int nums[]={2,3,0,0,8,0,8,0,9};
+        MoveZeroes mm = new MoveZeroes();
+        mm.moveZeroes(nums);
+    }
     public void moveZeroes(int[] nums)
     { int n = nums.length;
         int indexCount = 0;
@@ -12,8 +20,10 @@ public class MoveZeroes
             }
         }
 
-        while(indexCount < n){
+        while(indexCount < n)
+        {
             nums[indexCount++] = 0;
         }
+        System.out.println(Arrays.toString(nums));
     }
 }
