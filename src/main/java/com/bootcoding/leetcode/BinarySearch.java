@@ -2,11 +2,13 @@ package com.bootcoding.leetcode;
 
 public class BinarySearch
 {
-    public int search(int[] nums, int target)
-    {
-        return binarySearch(nums,target,0,nums.length-1);
+    public static void main(String[] args) {
+        int [] a={2,3,4,5,6,7};
+        int x=6;
+        int index = binarySearch(a, x, 0, a.length - 1);
+        System.out.println(x + " found in " + index+" index..");
     }
-    private int binarySearch(int a[],int x,int left,int right)
+    private  static int binarySearch(int a[],int x,int left,int right)
     {
         int mid=(left+right)/2;
         if (x==a[mid])
