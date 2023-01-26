@@ -2,6 +2,7 @@ package com.bootcoding.leetcode;
 
 public class MiddleOfLinkedList
 {
+
     public class ListNode
     {
       int val;
@@ -12,7 +13,8 @@ public class MiddleOfLinkedList
       { this.val = val; this.next = next; }
     }
 
-    public ListNode middleNode(ListNode head) {
+    public ListNode middleNode(ListNode head)
+    {
         ListNode slow = head;
         ListNode fast = head;
         while (fast != null && fast.next != null) {
