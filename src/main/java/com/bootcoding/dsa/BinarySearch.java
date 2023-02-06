@@ -3,7 +3,7 @@ package com.bootcoding.dsa;
 public class BinarySearch
 {
     public static void main(String[] args) {
-        int [] a={2,3,4,5,6,7};
+        int [] a={1,3,4,5,6,7};
         int x=6;
         int index = binarySearch(a, x, 0, a.length - 1);
         System.out.println(x + " found in " + index+" index..");
