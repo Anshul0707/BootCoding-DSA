@@ -1,11 +1,12 @@
 package com.bootcoding.linklist;
-
 public class LinkList
 {
     public static void main(String[] args)
     {
         Node head = createLinkedList();
-        printLinkedList(head);
+//        middleNode(head);
+        printLinkedList(middleNode(head));
+
     }
 
     public static class Node
@@ -27,22 +28,35 @@ public class LinkList
         Node secondNode = new Node(2);
         Node thirdNode = new Node(3);
         Node forthNode = new Node(4);
+        Node fifthNode = new Node(5);
 
         Node head = firstNode;
         head.next = secondNode;
         secondNode.next = thirdNode;
         thirdNode.next = forthNode;
-        forthNode.next = null;
+        forthNode.next=fifthNode;
+        fifthNode.next = null;
         return head;
     }
 
-    public static void printLinkedList(Node head){
+    public static void printLinkedList(Node head)
+    {
         Node temp = head;
         while (temp != null)
         {
             System.out.println(temp.data);
             temp = temp.next;
         }
+    }
+    public static Node middleNode(Node head)
+    {
+        Node slow = head;
+        Node fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
     }
 
 }
