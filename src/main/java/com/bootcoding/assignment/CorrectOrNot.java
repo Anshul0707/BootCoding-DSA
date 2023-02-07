@@ -4,7 +4,7 @@ public class CorrectOrNot
 {
     public static void main(String[] args)
     {
-        int p=3;
+        int p=33;
         int q=35;
         int r=15;
         int s=46;
