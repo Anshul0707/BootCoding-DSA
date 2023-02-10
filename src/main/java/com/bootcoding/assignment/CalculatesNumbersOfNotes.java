@@ -15,8 +15,7 @@ public class CalculatesNumbersOfNotes
 
         int temp=0;
 
-        for(int i=0;i<notes.length;i++)
-        {
+        for(int i=0;i<notes.length;i++) {
             temp=amount/notes[i];
             amount=amount%notes[i];
             System.out.println(temp+" notes of "+notes[i]);
