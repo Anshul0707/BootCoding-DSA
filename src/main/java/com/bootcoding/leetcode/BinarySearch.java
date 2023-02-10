@@ -8,8 +8,7 @@ public class BinarySearch
         int index = binarySearch(a, x, 0, a.length - 1);
         System.out.println(x + " found in " + index+" index..");
     }
-    private  static int binarySearch(int a[],int x,int left,int right)
-    {
+    private  static int binarySearch(int a[],int x,int left,int right) {
         int mid=(left+right)/2;
         if (x==a[mid])
         {
