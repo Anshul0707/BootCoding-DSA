@@ -4,7 +4,7 @@ public class PrintTheMonthOfTheYear
 {
     public static void main(String[] args)
     {
-        int num=5;
+        int num=10;
         printTheMonth(num);
     }
 
