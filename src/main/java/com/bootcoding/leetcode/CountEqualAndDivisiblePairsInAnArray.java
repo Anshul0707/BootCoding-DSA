@@ -10,8 +10,7 @@ public class CountEqualAndDivisiblePairsInAnArray
         System.out.println(res);
     }
 
-    private static int countEqualAndDivisiblePairsInAnArray(int[] nums, int k)
-    {
+    private static int countEqualAndDivisiblePairsInAnArray(int[] nums, int k) {
         int count=0;
         for (int i = 0; i < nums.length; i++)
         {
