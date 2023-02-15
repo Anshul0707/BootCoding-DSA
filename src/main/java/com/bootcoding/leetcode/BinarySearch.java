@@ -10,20 +10,16 @@ public class BinarySearch
     }
     private  static int binarySearch(int a[],int x,int left,int right) {
         int mid=(left+right)/2;
-        if (x==a[mid])
-        {
+        if (x==a[mid]) {
             return mid;
         }
-        if (left>=right)
-        {
+        if (left>=right) {
             return -1;
         }
-        if (x > a[mid])
-        {
+        if (x > a[mid]) {
             return binarySearch(a, x, mid+1, right);
         }
-        else
-        {
+        else {
             return binarySearch(a, x, left, mid-1);
         }
     }
