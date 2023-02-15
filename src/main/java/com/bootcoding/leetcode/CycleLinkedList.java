@@ -12,23 +12,19 @@ public class CycleLinkedList
       }
     }
 
-    public boolean hasCycle(ListNode head)
-    {
+    public boolean hasCycle(ListNode head) {
         ListNode sp=head;
         ListNode fp=head;
 
-        while(true)
-        {
+        while(true) {
 
-            if (fp == null || fp.next==null)
-            {
+            if (fp == null || fp.next==null) {
                 return false;
             }
             sp=sp.next;
             fp=fp.next.next;
 
-            if (sp==fp)
-            {
+            if (sp==fp) {
                 return true;
             }
 
