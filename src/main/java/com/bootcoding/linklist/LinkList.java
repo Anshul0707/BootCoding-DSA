@@ -6,7 +6,6 @@ public class LinkList
         Node head = createLinkedList();
 //        middleNode(head);
         printLinkedList(middleNode(head));
-
     }
 
     public static class Node
