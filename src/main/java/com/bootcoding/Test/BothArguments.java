@@ -8,8 +8,7 @@ public class BothArguments
         System.out.println(res);
     }
 
-    private static boolean arguments(int a, int b)
-    {
+    private static boolean arguments(int a, int b) {
         if (a==10 || b==10|| a+b==10)
         {
             return true;
