@@ -12,8 +12,7 @@ public class PrintEvenOrOdd
 
     }
 
-    private static void printEven(int first, int last)
-    {
+    private static void printEven(int first, int last) {
         if (first>last) {
             return;
         } else if (first % 2 ==0) {
