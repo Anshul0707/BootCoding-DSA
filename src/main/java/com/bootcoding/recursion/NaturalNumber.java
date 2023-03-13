@@ -4,15 +4,14 @@ public class NaturalNumber
 {
     public static void main(String[] args) {
         int n=1;
-        System.out.print("First 50 Natural Numbers are:");
+        System.out.print("First 50 Natural Numbers are: ");
         printNaturalNumberForWord(n);
         System.out.println("\n");
-        System.out.print("Last 50 Natural Numbers are:");
+        System.out.print("Last 50 Natural Numbers are: ");
         printNaturalNumberBackWord(n);
     }
 
-    private static void printNaturalNumberForWord(int n)
-    {
+    private static void printNaturalNumberForWord(int n) {
         if(n>50){
             return;
         }
