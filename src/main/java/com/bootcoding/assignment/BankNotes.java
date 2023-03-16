@@ -7,7 +7,8 @@ public class BankNotes
     public static void main(String[] args)
     {
         int amt;
-        int rs2000=0, rs500=0, rs100=0, rs50=0, rs20=0, rs10=0, rs5=0, rs2=0 , rs1=0;
+        int rs2000=0;
+                int rs500=0, rs100=0, rs50=0, rs20=0, rs10=0, rs5=0, rs2=0 , rs1=0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Input the amount");
