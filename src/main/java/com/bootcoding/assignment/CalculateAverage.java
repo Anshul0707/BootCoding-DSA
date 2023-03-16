@@ -9,6 +9,7 @@ public class CalculateAverage
         Scanner s = new Scanner(System.in);
 
         System.out.println("Input total distance in km");
+
         int distance = s.nextInt();
 
         System.out.println("Input total distance in km");
