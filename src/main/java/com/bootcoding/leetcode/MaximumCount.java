@@ -2,8 +2,7 @@ package com.bootcoding.leetcode;
 
 public class MaximumCount
 {
-    public int maximumCount(int[] nums)
-    {
+    public int maximumCount(int[] nums) {
         int pCount=0;
         int nCount=0;
         int maximumCount=0;
