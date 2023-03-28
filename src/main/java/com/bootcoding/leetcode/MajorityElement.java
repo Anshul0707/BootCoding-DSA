@@ -7,7 +7,7 @@ public class MajorityElement
 {
     public static void main(String[] args)
     {
-        int[] nums={2,2,1,1,1,2,2};
+        int[] nums={2,2,1,1,1,3,2,2};
         int res = majorityElement(nums);
         System.out.println(res);
     }
