@@ -3,8 +3,7 @@ package com.bootcoding.leetcode;
 public class MiddleOfLinkedList
 {
 
-    public class ListNode
-    {
+    public class ListNode {
       int val;
       ListNode next;
       ListNode() {}
