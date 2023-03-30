@@ -21,6 +21,7 @@ class Solution
             }
             System.out.print('\n');
         }
+        
         in.close();
     }
 }
