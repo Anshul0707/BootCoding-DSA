@@ -20,6 +20,7 @@ public class BubbleSortExample {
     private static void bubbleSortExample(int[] arr)
     {
         int temp = 0;
+        
         for (int i = 0; i < arr.length; i++)
         {
             for (int j = 1; j < arr.length; j++)
