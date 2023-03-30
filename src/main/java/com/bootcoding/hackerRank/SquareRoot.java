@@ -7,12 +7,13 @@ public class SquareRoot
     int number=81;
         double res = getSquareRoot(number);
         System.out.println(res);
+        
     }
     public static double getSquareRoot(double number) {
         double temp;
         double sqrt = number / 2;
         do
-        {
+{
             temp = sqrt;
             sqrt = (temp + (number / temp)) / 2;
         }
