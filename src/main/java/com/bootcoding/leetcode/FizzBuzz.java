@@ -5,6 +5,7 @@ import java.util.List;
 
 public class FizzBuzz
 {
+    
     public List<String> fizzBuzz(int n) {
         ArrayList<String> str=new ArrayList<>();
         for(int i=1;i<=n;i++)
