@@ -3,8 +3,8 @@ package com.bootcoding.Test;
 public class CalculateTriangleArea
 {
     public static void main(String[] args) {
-        double base=15;
-        double height=20;
+        double base=20;
+        double height=25;
         double output = calculateTriangleArea(base, height);
         System.out.println("Area of Triangle is: "+output);
     }
