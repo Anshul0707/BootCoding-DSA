@@ -8,6 +8,7 @@ public class PositiveNumberInArray
         int res = sumPositive(arr);
         System.out.println(res);
     }
+    
     private static int sumPositive(int[] arr) {
         int sum = 0;
         for (int num : arr) {
