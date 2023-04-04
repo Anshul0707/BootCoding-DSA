@@ -9,8 +9,6 @@ public class PowerofTwo
         boolean res = powerofTwo.isPowerOfTwo(n);
         System.out.println(res);
     }
-
-
     public boolean isPowerOfTwo(int n)
     {
         if (n <= 0)
