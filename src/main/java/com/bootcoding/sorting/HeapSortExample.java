@@ -67,6 +67,7 @@ public class HeapSortExample
 
         // Function call
         HeapSortExample ob = new HeapSortExample();
+        
         ob.sort(arr);
 
         System.out.println("Sorted array is");
