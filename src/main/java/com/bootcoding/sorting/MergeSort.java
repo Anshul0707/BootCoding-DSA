@@ -10,6 +10,7 @@ public class MergeSort
         // Find sizes of two subarrays to be merged
         int n1 = m - l + 1;
         int n2 = r - m;
+        
 
         /* Create temp arrays */
         int L[] = new int[n1];
