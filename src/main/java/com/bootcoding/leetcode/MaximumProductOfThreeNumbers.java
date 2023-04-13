@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MaximumProductOfThreeNumbers
 {
     public static void main(String[] args) {
-        int [] nums={-1,-2,-3};
+        int [] nums={-10,-12,7,8,11,15};
         int i = maximumProduct(nums);
         System.out.println(i);
     }
