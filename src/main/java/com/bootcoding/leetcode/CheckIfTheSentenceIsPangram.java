@@ -11,6 +11,7 @@ public class CheckIfTheSentenceIsPangram {
     }
 
     private static boolean checkIfPangram(String sentence) {
+        Set<Character> set = new HashSet<>();
 
         return false;
     }
