@@ -12,7 +12,9 @@ public class RemoveDuplicatesFromSortedArray
     }
     private static int removeDuplicates(int[] nums) {
         Set<Integer> set = new HashSet<>();
-
+        for (int rr:nums ) {
+            set.add(rr);
+        }
         return set.size();
     }
 }
