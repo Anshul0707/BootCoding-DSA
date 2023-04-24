@@ -11,9 +11,7 @@ public class SumOfUnique
         System.out.println(res);
     }
 
-    public static int sumOfUnique(int[] nums)
-    {
-        int temp=0;
+    public static int sumOfUnique(int[] nums) {
         int sum=0;
         Map<Integer, Integer> cache = new HashMap<>();
         for (int i = 0; i < nums.length; i++)
