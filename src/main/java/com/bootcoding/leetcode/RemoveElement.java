@@ -4,7 +4,8 @@ public class RemoveElement {
     public static void main(String[] args) {
         int[] nums={3,2,2,3};
         int val=3;
-        removeElement(nums,val);
+        int res = removeElement(nums, val);
+        System.out.println(res);
     }
 
     private static int removeElement(int[] nums, int val) {
