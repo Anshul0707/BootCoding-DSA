@@ -14,7 +14,10 @@ public class CheckIfTheSentenceIsPangram {
         Set<Character> set = new HashSet<>();
         char[] chars = sentence.toCharArray();
         for (char c : chars) {
-
+            set.add(c);
+            if (set.size() == 26) {
+                return true;
+            }
         }
         return false;
     }
