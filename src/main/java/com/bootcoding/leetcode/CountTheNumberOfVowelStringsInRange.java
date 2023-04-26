@@ -12,7 +12,13 @@ public class CountTheNumberOfVowelStringsInRange
 
     private static int vowelStrings(String[] words, int left, int right) {
         int count=0;
-
+        for (String oneWord:words) {
+            if (oneWord.startsWith("a") ||  oneWord.startsWith("e") || oneWord.startsWith("i") || oneWord.startsWith("o") || oneWord.startsWith("u")){
+                if (oneWord.endsWith("a") || oneWord.endsWith("e") || oneWord.endsWith("i") || oneWord.endsWith("o") || oneWord.endsWith("u")){
+                    count++;
+                }
+            }
+        }
         return count;
     }
 }
