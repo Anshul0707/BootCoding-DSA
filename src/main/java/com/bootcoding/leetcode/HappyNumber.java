@@ -9,7 +9,12 @@ public class HappyNumber {
 
     private static boolean isHappy(int n) {
         int sum=1;
-
+        while (n==1) {
+            sum=n;
+            int digit=n%10;
+            sum = sum + digit * digit;
+            n= n / 10;
+        }
         return false;
     }
 }
