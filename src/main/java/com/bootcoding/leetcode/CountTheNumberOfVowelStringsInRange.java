@@ -6,8 +6,7 @@ public class CountTheNumberOfVowelStringsInRange
         String[] words={"ce","ai"};
         int left=1;
         int right=1;
-        int i = vowelStrings(words, left, right);
-        System.out.println(i);
+        System.out.println(vowelStrings(words, left, right));
     }
 
     public static int vowelStrings(String[] words, int left, int right) {
