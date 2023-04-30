@@ -8,14 +8,13 @@ public class ValidPerfectSquare {
     }
 
     private static boolean isPerfectSquare(int num) {
-        if (num == 1) {
-            return true;
+        if (num < 1) {
+            return false;
         }
-        for (int i = 1; i < num; i++) {
-            if (i*i==num){
-                return true;
-            }
+        long x = num;
+        while (x * x > num) {
+            x = (x + num / x) / 2;
         }
-        return false;
+        return x * x == num;
     }
 }
