@@ -12,7 +12,8 @@ public class AverageSalaryExcludingTheMinimumAndMaximumSalary
 
     private static double average(int[] salary) {
         Arrays.sort(salary);
-        int sum=0,count=0;
+        int sum=0;
+        double count=0;
         for (int i = 1; i < salary.length - 1; i++) {
         sum = sum + salary[i];
         count++;
