@@ -12,6 +12,7 @@ public class MajorityElement
     }
 
     public static int majorityElement(int[] nums) {
+
         Map<Integer, Integer> cache = new HashMap<>();
         int n = nums.length;
         for (int i = 0; i < n; i++) {
