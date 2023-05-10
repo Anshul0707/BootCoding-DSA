@@ -7,8 +7,7 @@ public class Palindrome
      int x=121;
      isPalindrome(x);
     }
-    public static void isPalindrome(int x)
-    {
+    public static void isPalindrome(int x) {
         if(x < 0)
         {
             System.out.println("Number Should be greater than zero and not be negative..");
