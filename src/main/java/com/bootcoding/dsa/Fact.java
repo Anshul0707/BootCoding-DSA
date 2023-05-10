@@ -7,8 +7,7 @@ public class Fact
         System.out.println(res);
     }
 
-    private static long getFact(int n)
-    {
+    private static long getFact(int n) {
         if (n==1)
         {
             return 1;
