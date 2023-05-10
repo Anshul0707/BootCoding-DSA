@@ -10,9 +10,7 @@ public class ArrayLength
         System.out.println(result);
     }
 
-    private static boolean arryEql(int[] arr1,int [] arr2)
-    {
-
+    private static boolean arryEql(int[] arr1,int [] arr2) {
         if (arr1.length == arr2.length)
         {
             for (int i = 0; i < arr1.length; i++)
