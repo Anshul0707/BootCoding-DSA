@@ -4,7 +4,7 @@ public class NumberofDigits
 {
     public static void main(String[] args)
     {
-        int num=234567;
+        int num=56789;
         System.out.println("Number of Digits:- "+DigitsCount(num));
     }
 
