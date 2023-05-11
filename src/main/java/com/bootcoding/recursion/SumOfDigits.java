@@ -4,7 +4,7 @@ public class SumOfDigits
 {
     public static void main(String[] args)
     {
-        int n = 12345;
+        int n = 5766;
         System.out.print("Sum of digits : "+ sumDigit(n));
     }
 
