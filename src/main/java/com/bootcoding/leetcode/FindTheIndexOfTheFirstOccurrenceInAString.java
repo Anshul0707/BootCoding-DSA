@@ -10,6 +10,7 @@ public class FindTheIndexOfTheFirstOccurrenceInAString {
         if (needle.isEmpty()) {
             return 0;
         }
+
         return haystack.indexOf(needle);
     }
 }
