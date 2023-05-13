@@ -14,6 +14,7 @@ public class MaximumCount
                 pCount++;
             }
         }
+
         if (pCount>nCount) {
             maximumCount=pCount;
         }
