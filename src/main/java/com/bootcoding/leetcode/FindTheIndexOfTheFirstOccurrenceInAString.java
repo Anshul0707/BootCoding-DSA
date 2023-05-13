@@ -5,4 +5,11 @@ public class FindTheIndexOfTheFirstOccurrenceInAString {
         String haystack="sadbutsad";
         String needle="sad";
     }
+
+    private static int strStr(String haystack, String needle) {
+        if (needle.isEmpty()) {
+            return 0;
+        }
+        return haystack.indexOf(needle);
+    }
 }
