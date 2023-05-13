@@ -8,7 +8,6 @@ public class CheakDivisibility
         cheakDivisibility(head);
 
     }
-
     static class Node
     {
         int data;
