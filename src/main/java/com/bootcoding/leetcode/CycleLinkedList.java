@@ -2,8 +2,7 @@ package com.bootcoding.leetcode;
 
 public class CycleLinkedList
 {
-    class ListNode
-    {
+    class ListNode {
      int val;
       ListNode next;
       ListNode(int x) {
@@ -17,13 +16,11 @@ public class CycleLinkedList
         ListNode fp=head;
 
         while(true) {
-
             if (fp == null || fp.next==null) {
                 return false;
             }
             sp=sp.next;
             fp=fp.next.next;
-
             if (sp==fp) {
                 return true;
             }
