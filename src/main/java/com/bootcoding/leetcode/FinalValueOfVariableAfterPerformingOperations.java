@@ -17,6 +17,7 @@ public class FinalValueOfVariableAfterPerformingOperations {
                 res=res+1;
             }
         }
+
         return res;
     }
 }
