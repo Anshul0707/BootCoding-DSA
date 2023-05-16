@@ -16,6 +16,7 @@ public class ThreeDivisors
                 count++;
             }
         }
+
         return count==3;
     }
 }
