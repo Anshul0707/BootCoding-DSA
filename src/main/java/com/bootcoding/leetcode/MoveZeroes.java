@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MoveZeroes
 {
     public static void main(String[] args) {
-        int nums[]={2,3,0,0,8,0,8,0,9};
+        int nums[]={2,0,0,9,9};
         MoveZeroes mm = new MoveZeroes();
         mm.moveZeroes(nums);
     }
