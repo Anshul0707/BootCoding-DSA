@@ -14,8 +14,7 @@ public class SumOfUnique
     public static int sumOfUnique(int[] nums) {
         int sum=0;
         Map<Integer, Integer> cache = new HashMap<>();
-        for (int i = 0; i < nums.length; i++)
-        {
+        for (int i = 0; i < nums.length; i++) {
             if(null == cache.get(nums[i])){
                 cache.put(nums[i], 1);
             }else{
