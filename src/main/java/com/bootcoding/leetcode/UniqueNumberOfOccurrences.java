@@ -28,6 +28,7 @@ public class UniqueNumberOfOccurrences {
          array[r]=map.getValue();
          r++;
         }
+
         Set<Integer> set = new HashSet<>();
         for (int res : array) {
             set.add(res);
