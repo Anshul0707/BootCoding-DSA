@@ -11,6 +11,7 @@ public class ValidPerfectSquare {
         if (num < 1) {
             return false;
         }
+
         long x = num;
         while (x * x > num) {
             x = (x + num / x) / 2;
