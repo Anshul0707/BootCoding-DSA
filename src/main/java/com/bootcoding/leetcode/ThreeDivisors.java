@@ -8,6 +8,7 @@ public class ThreeDivisors
         System.out.println(res);
     }
 
+
     private static boolean isThree(int n) {
         int count=0;
         int i;
