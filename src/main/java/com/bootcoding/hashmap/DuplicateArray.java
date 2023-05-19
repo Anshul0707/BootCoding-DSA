@@ -8,8 +8,7 @@ public class DuplicateArray
         duplicateArray(arr);
     }
 
-    private static void duplicateArray(int[] arr)
-    {
+    private static void duplicateArray(int[] arr) {
         for(int i = 0; i < arr.length; i++) {
             for(int j = i+1; j < arr.length; j++)
             {
