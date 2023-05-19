@@ -12,8 +12,7 @@ public class SquareRoot
     public static double getSquareRoot(double number) {
         double temp;
         double sqrt = number / 2;
-        do
-{
+        do {
             temp = sqrt;
             sqrt = (temp + (number / temp)) / 2;
         }
