@@ -7,7 +7,6 @@ public class Example
     public static void main(String[] args)
     {
         HashMap<String, Integer> map = new HashMap<>();
-
         map.put("Anshul",07);
         map.put("Min",13);
         map.put("Harshal",06);
