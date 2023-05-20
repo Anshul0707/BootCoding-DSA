@@ -14,6 +14,7 @@ public class BinarySearch
         if (x==a[mid]) {
             return mid;
         }
+
         if (left>=right) {
             return -1;
         }
