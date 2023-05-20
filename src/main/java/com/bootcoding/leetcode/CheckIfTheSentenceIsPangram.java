@@ -19,6 +19,7 @@ public class CheckIfTheSentenceIsPangram {
                 return true;
             }
         }
+
         return false;
     }
 }
