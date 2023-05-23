@@ -6,7 +6,6 @@ public class EvenOdd {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
         // Get the size of the array
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
