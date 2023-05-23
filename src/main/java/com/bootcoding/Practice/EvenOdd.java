@@ -13,6 +13,7 @@ public class EvenOdd {
         // Create the array
         int[] array = new int[size];
 
+
         // Populate the array
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < size; i++) {
