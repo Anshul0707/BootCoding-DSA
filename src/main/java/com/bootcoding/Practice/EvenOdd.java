@@ -33,7 +33,8 @@ public class EvenOdd {
     }
 
 
-    public static boolean isEven(int number) {
+    public static boolean isEven(int number)
+    {
         return number % 2 == 0;
     }
 }
