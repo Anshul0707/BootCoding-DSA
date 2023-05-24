@@ -28,7 +28,6 @@ public class EvenOdd {
                 System.out.println(array[i] + " is odd.");
             }
         }
-
         scanner.close();
     }
 
