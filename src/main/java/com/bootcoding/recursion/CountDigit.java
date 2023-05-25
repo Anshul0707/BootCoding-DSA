@@ -7,6 +7,7 @@ public class CountDigit
         long n = 45678;
         System.out.print("Number of digits"+ countDigit(n));
     }
+
     private static int countDigit(long n) {
         int count = 0;
         while (n != 0)
