@@ -8,6 +8,7 @@ public class NaturalNumber
         printNaturalNumberForWord(n);
         System.out.println("\n");
         System.out.print("Last 50 Natural Numbers are: ");
+
         printNaturalNumberBackWord(n);
     }
 
@@ -24,7 +25,6 @@ public class NaturalNumber
         if(n>50){
             return;
         }
-
         printNaturalNumberBackWord(n+1);
         System.out.print(" "+n+" ");
     }
