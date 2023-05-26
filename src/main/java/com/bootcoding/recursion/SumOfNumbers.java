@@ -3,7 +3,7 @@ package com.bootcoding.recursion;
 public class SumOfNumbers
 {
     public static void main(String[] args) {
-        int num = 6;
+        int num = 234;
         System.out.println(sumOfNumbers(num));
     }
 
