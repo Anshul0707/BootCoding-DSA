@@ -20,8 +20,7 @@ public class NaturalNumber
         printNaturalNumberForWord(n+1);
     }
 
-    private static void printNaturalNumberBackWord(int n)
-    {
+    private static void printNaturalNumberBackWord(int n) {
         if(n>50){
             return;
         }
