@@ -9,8 +9,7 @@ public class NumberofDigits
     }
 
     static int Count = 0;
-    public static int DigitsCount(int Number)
-    {
+    public static int DigitsCount(int Number) {
         if(Number > 0)
         {
             Count = Count + 1;
