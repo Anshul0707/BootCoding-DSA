@@ -8,7 +8,6 @@ public class GCD
     }
     public static int gcd(int a, int b)
     {
-
         return a;
     }
 }
