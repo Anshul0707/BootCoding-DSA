@@ -5,7 +5,6 @@ public class HeapSortExample
     public void sort(int arr[])
     {
         int N = arr.length;
-
         // Build heap (rearrange array)
         for (int i = N / 2 - 1; i >= 0; i--)
             heapify(arr, N, i);
