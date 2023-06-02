@@ -5,8 +5,6 @@ public class PrintEvenOrOdd
     public static void main(String[] args) {
         int first=1;
         int last=10;
-
-
         System.out.println("Odd Num");
         printOdd(first,last);
         System.out.println("Even Num");
