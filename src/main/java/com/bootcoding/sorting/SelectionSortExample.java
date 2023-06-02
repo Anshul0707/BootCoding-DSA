@@ -6,8 +6,7 @@ public class SelectionSortExample
     {
         int[] arr = {12, 11, 13, 5, 6, 7};
         System.out.println("Before Sorting...");
-        for (int a : arr)
-        {
+        for (int a : arr) {
             System.out.print(a + "  ");
         }
         System.out.println("\nAfter Sorting...");
