@@ -1,11 +1,9 @@
 package com.bootcoding.recursion;
 
-public class CountDigit
-{
-    public static void main(String[] args)
-    {
+public class CountDigit {
+    public static void main(String[] args) {
         long n = 45678;
-        System.out.print("Number of digits"+ countDigit(n));
+        System.out.print("Number of digits" + countDigit(n));
     }
 
     private static int countDigit(long n) {
