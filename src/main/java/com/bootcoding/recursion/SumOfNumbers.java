@@ -1,7 +1,6 @@
 package com.bootcoding.recursion;
 
-public class SumOfNumbers
-{
+public class SumOfNumbers {
     public static void main(String[] args) {
         int num = 234;
         System.out.println(sumOfNumbers(num));
